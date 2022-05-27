@@ -3,7 +3,8 @@ def liner_search(data, target):
     for i in data:
         if i == target:
             return True
-    return False
+    return False 
+    
 
 #more efficent way
 def binary_search_iterative(data, target):
